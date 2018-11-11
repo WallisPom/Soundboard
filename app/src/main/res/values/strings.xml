@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Soundboard for Fortnite</string>
+    <string name="ninjaTwitch"><a href="https://www.twitch.tv/ninja">Twitch</a></string>
+    <string name="ninjaYoutube"><a href="https://www.youtube.com/user/NinjasHyper">Youtube</a></string>
+    <string name="ninjaTwitter"><a href="https://twitter.com/ninja?lang=en">Twitter</a></string>
+    <string name="ninjaInstagram"><a href="https://www.instagram.com/ninja/?hl=en">Instagram</a></string>
+
+</resources>

@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/fortnite_background">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <ImageView
+            android:layout_marginRight="1dp"
+            android:layout_toLeftOf="@+id/ninjaYoutube"
+            android:id="@+id/ninjaTwitch"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/twitch_blackborder"/>
+        <ImageView
+            android:layout_marginRight="1dp"
+            android:layout_alignParentRight="true"
+            android:id="@+id/ninjaYoutube"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/youtube_blackborder"/>
+
+        <Button
+            android:layout_centerVertical="true"
+            android:id="@+id/ninja"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ninja"
+            android:fontFamily="Condensed bold"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="2dp"
+            android:paddingTop="2dp"
+            android:src="@drawable/ninja_profile" />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <ImageView
+            android:layout_marginRight="1dp"
+            android:layout_toLeftOf="@+id/mythYoutube"
+            android:id="@+id/mythTwitch"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/twitch_blackborder"/>
+        <ImageView
+            android:layout_marginRight="1dp"
+            android:layout_alignParentRight="true"
+            android:id="@+id/mythYoutube"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/youtube_blackborder"/>
+
+        <Button
+            android:layout_centerVertical="true"
+            android:id="@+id/myth"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Myth"
+            android:fontFamily="Condensed bold"
+            android:textSize="28sp"
+            android:textStyle="bold"/>
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="2dp"
+            android:paddingTop="2dp"
+            android:src="@drawable/myth_profile" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <ImageView
+            android:layout_marginRight="1dp"
+            android:layout_toLeftOf="@+id/daequanYoutube"
+            android:id="@+id/daequanTwitch"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/twitch_blackborder"/>
+        <ImageView
+            android:layout_marginRight="1dp"
+            android:layout_alignParentRight="true"
+            android:id="@+id/daequanYoutube"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/youtube_blackborder"/>
+
+        <Button
+            android:layout_centerVertical="true"
+            android:id="@+id/daequan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Daequan"
+            android:layout_alignParentLeft="true"
+            android:layout_toLeftOf="@drawable/test_daequan"
+            android:fontFamily="Condensed bold"
+            android:textSize="19sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="2dp"
+            android:paddingTop="2dp"
+            android:src="@drawable/test_daequan"/>
+
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <ImageView
+            android:layout_marginRight="1dp"
+            android:layout_toLeftOf="@+id/timYoutube"
+            android:id="@+id/timTwitch"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/twitch_blackborder"/>
+        <ImageView
+            android:layout_marginRight="1dp"
+            android:layout_alignParentRight="true"
+            android:id="@+id/timYoutube"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/youtube_blackborder"/>
+
+        <Button
+            android:layout_centerVertical="true"
+            android:id="@+id/tim"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tim"
+            android:fontFamily="Condensed bold"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="2dp"
+            android:paddingTop="2dp"
+            android:src="@drawable/tim_profile" />
+
+    </RelativeLayout>
+
+
+    </LinearLayout>
